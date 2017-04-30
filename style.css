@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #008864;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: none;
+}
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% - .8vmin));
+}
+.tooth {
+    background-color: #9ff5bc;
+    border: .8vmin solid #fff;
+    height: 5vh;
+    width: 5vh;
+    display: inline-block;
+    line-height: 0;
+    vertical-align: top;
+    border-radius: 100%;
+}
+.spacer {
+    display: inline-block;
+    height: 1vh;
+    width: 5vh;
+}
+.row {
+    padding: 0;
+    margin: 0;
+    height: 5vh;
+}
